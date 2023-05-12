@@ -17,7 +17,6 @@ for (let i = numBottles; i >0; i--) {
           message += '<div style="font-family: Arial; font-size: 16px; font-style: oblique; color: blue; line-height: 1.6">' + i+ " bottles of beer on the wall,<br>"
           message +=  "Take one down,<br> pass it around, <br>"
           message += (i - 1) + ' <a href="/' + (i - 1) + '">bottles now</a>'  // link to next page
-          message += ''
           break    // if no break the message continue until 0 at the same page
     } else if (i==1){  // to give a specila message for last bottle
          message += '<div style="font-family: Arial; font-size: 16px; font-style: oblique; color: green; line-height: 1.6">' + i + " bottle of beer on the wall <br>"
